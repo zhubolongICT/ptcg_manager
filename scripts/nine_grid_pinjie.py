@@ -227,12 +227,12 @@ def process_zhs():
 
 
 def process_demo():
-    DIR_PATH = '../demo'
-    OUPUT_PINJIE_DIRPATH = '../zhs_nine_grid_pinjie'
+    DIR_PATH = '/mnt/e/Relax/Cards/ptcg_cards'
+    OUPUT_PINJIE_DIRPATH = '/mnt/e/Relax/Cards/zhs_nine_grid_pinjie'
 
     
-    process(input_image_dirpath=os.path.join(DIR_PATH, '0525'), 
-        output_image_dirpath=OUPUT_PINJIE_DIRPATH, setId='demo_0525')
+    process(input_image_dirpath=os.path.join(DIR_PATH, '0420_pokemons'), 
+        output_image_dirpath=OUPUT_PINJIE_DIRPATH, setId='0420_pokemons')
 
 def main():
     # process_zhs()
